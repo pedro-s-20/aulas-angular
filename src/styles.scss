@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 90%;
+    background-color: #191970;
+    color: #000;
+    --branco: #fff;
+    --preto: #000;
+    --topo: #6495ED;
+    --titulo: #87CEFA;
+}
+
+header {
+    color: var(--titulo);
+    background-color: #4169E1;
+    padding: 3%;
+}
+
+footer {
+    background-color: #4169E1;
+    height: 120px;
+    padding: 2%;
+    color: #fff;
+}
+
+nav {
+    max-width: 100%;
+    padding: 2%;
+    background-color: #F0F8FF;
+}
+
+.btn {
+    border: none;
+    background-color: #6959CD;
+    padding: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 4px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #836FFF;
+}
